@@ -5,6 +5,74 @@
     font-family: sans-serif;
     list-style: none;
 }
+/* Loader */
+.loading{
+    margin: 0 auto;
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    animation: fadeOut 2s ;
+    animation-fill-mode: forwards;
+    -webkit-animation: fadeOut 1s;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation: fadeOut 1s;
+    -o-animation-fill-mode: forwards;
+    -moz-animation: fadeOut 1s;
+    -moz-animation-fill-mode: forwards;
+
+}
+.main{
+    margin:  15rem auto;
+    display: flex;
+    justify-content: center;
+}
+.dot{
+    border: 5px solid #0bf387;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.dot2{
+    border: 5px solid #df7a7a;
+    border-radius: 50%;
+    background-color: transparent;
+    width: 70px;
+    height: 70px;
+    margin-top: -5px;
+    margin-left: -5px;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    animation: loader 2s linear infinite;
+    -webkit-animation: loader 2s linear infinite;
+    -o-animation: loader 2s linear infinite;
+    -moz-animation: loader 2s linear infinite;
+}
+@keyframes loader{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes loader{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes fadeOut{
+    100%{
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+@-webkit-keyframes fadeOut{
+    100%{
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+/* Loader end */
+
 body{
     background-image: url(../images/body_bg.jpg);
     background-repeat: no-repeat;
