@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+body{
+    background-image: url(../images/body_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#uy{
+    height: 95px;
+    background-color: #ffffff;
+}
+#uy .header{
+    width: 100%;
+    height: 100%;
+}
+.header h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #524f4f;
+}
+.header a{
+    text-decoration: none;
+}
+.header span{
+    color: #007BFF;
+}
+/* navbar */
+nav{
+    width: 100%;
+    height: 60px;
+    z-index: 3;
+    position: fixed;
+}
+.navbar{
+    background-color: #007BFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.navbar ul {
+    list-style: none;
+}
+.navbar ul li{
+    background-color: #007BFF;
+    width: 220px;
+    border: 1px solid #007BFF;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 19px;
+}
+.navbar ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li:hover{
+    background-color: #085b81;
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
+/* navbar end */
+
+
+
+
+
+
+/* Footer ************/
+#footer{
+    background-color: #363636;
+    min-height: 30vh; 
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+    line-height: 25px;
+    
+}
+#footer .nav ul{
+    padding-left: 70px;
+}
+#footer .nav ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    border-bottom: 1px solid #cccccc;
+    border-width: 100%;
+}
+#footer .nav ul li a{
+    padding: 10px 0 10px 0;
+}
+#footer a:hover{
+    color: #007bff;
+}
+
+.copyright-text{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #202020;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Footer end ************/

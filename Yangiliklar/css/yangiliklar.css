@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Loader */
+
+.loading{
+    margin: 0 auto;
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    animation: fadeOut 2s ;
+    animation-fill-mode: forwards;
+    -webkit-animation: fadeOut 1s;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation: fadeOut 1s;
+    -o-animation-fill-mode: forwards;
+    -moz-animation: fadeOut 1s;
+    -moz-animation-fill-mode: forwards;
+
+}
+.main{
+    margin:  15rem auto;
+    display: flex;
+    justify-content: center;
+}
+.dot{
+    border: 5px solid #0bf387;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.dot2{
+    border: 5px solid #df7a7a;
+    border-radius: 50%;
+    background-color: transparent;
+    width: 70px;
+    height: 70px;
+    margin-top: -5px;
+    margin-left: -5px;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    animation: loader 2s linear infinite;
+    -webkit-animation: loader 2s linear infinite;
+    -o-animation: loader 2s linear infinite;
+    -moz-animation: loader 2s linear infinite;
+}
+@keyframes loader{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes loader{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes fadeOut{
+    100%{
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+@-webkit-keyframes fadeOut{
+    100%{
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+/*SCROLL BAR*/
+
+::-webkit-scrollbar {
+    width: 5px ; 
+}
+::-webkit-scrollbar-thumb {
+    background-color: #444444;
+    border-radius: 20px; 
+} 
+::-webkit-scrollbar-track {
+    background-color: #eeeef0; 
+}
+
+body{
+    background-image: url(../images/bg-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#uy{
+    height: 95px;
+    background-color: #ffffff;
+}
+#uy .header{
+    width: 100%;
+    height: 100%;
+}
+.header h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #524f4f;
+}
+.header a{
+    text-decoration: none;
+}
+.header span{
+    color: #007BFF;
+}
+/* navbar */
+nav{
+    width: 100%;
+    height: 60px;
+    z-index: 3;
+    position: fixed;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #007BFF;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0 auto;
+}
+.navbar ul li{
+    background-color: #007BFF;
+    width: 220px;
+    border: 1px solid #007BFF;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 19px;
+}
+.navbar ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li:hover{
+    background-color: #085b81;
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
+/* navbar end */
+
+.container{
+    margin-top: 2% ;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+.news{
+    margin-top: 5% ;
+    margin-bottom: 5%;
+}
+
+/* Footer ************/
+#footer{
+    background-color: #363636;
+    min-height: 30vh; 
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+    line-height: 25px;
+}
+#footer .nav ul{
+    padding-left: 70px;
+}
+#footer .nav ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    border-bottom: 1px solid #cccccc;
+    border-width: 100%;
+}
+#footer .nav ul li a{
+    padding: 10px 0 10px 0;
+}
+#footer a:hover{
+    color: #007bff;
+}
+
+.copyright-text{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #202020;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Footer end ************/
+
+.climb{
+    font-size: 35px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #4fd1e2;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    text-decoration: none;
+}
+.climb:hover{
+    text-decoration: none;
+    color: #ffffff;
+}

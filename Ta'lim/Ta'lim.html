@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ta'lim</title>
+        <link rel="stylesheet" href="../Bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="../fontawesome/css/all.css">
+        <link rel="stylesheet" href="./Ta'lim.css">
+        <link rel="stylesheet" href="./Ta'lim_media.css">
+    </head>
+    <body>
+        <!-- for loader -->
+        <div class="loading">
+            <div class="main">
+                <div class="dot">
+                    <div class="dot2"></div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Header----------- -->
+    <div id="climb"></div>
+    <div class="container-fluid" id="uy">
+    <div class="row header py-3" id="maktab">
+        <div class="col-md-3">
+            <table>
+                <tr>
+                    <td class="px-2"><a href="#"><img src="../images/logo.png" alt="logo" width="80px"></a></td>
+                    <td><h3 class="py-1 font-weight-bold">-Maktab<br>rasmiy sayti</h3></td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-3">
+            <table>
+                <tr>
+                    <td class="px-2"><a href="#"><i class="fa fa-phone-volume fa-2x" aria-hidden="true"></i></a></td>
+                    <td><h3 class="py-1">Biz bilan aloqa:<br><span>+998 (97) 777 07 70</span></h3></td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-3 text-center">
+            <table>
+                <tr>
+                    <td class="px-2"><a href="#"><i class="fa fa-envelope p-1 fa-2x" aria-hidden="true"></i></a></td>
+                    <td><h3 class="py-1">Bizning Email:<br>20maktab@gmail.com</h3></td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-3">
+            <table>
+                <tr>
+                    <td class="px-2"><a href="#locate"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i></a></td>
+                    <td><h3 class="py-1">Bizning manzil:<br>Jizzax.SH Rashidov </h3></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- NAVBAR------------- -->
+    <div class="row">
+      <nav class="navbar">
+        <ul>
+          <li>
+              <a href="../index.html">UY SAHIFA</a>
+          </li>
+          <li>
+              <a href="#maktab" class="dropdown-toggle">MAKTAB</a>
+              <ul>
+                  <li>
+                      <a href="../Xodimlar/xodimlar.html">XODIMLAR</a>
+                  </li>
+                  <li>
+                      <a href="#maktab_haqida">MAKTAB HAQIDA</a>
+                  </li>
+                  <li>
+                      <a href="../Sinflar/Sinflar.html">SINFLAR</a>
+                  </li>
+                  <li>
+                      <a href="../Meyoriy hujjatlar/meyoriy_hujjat.html">ME'YORIY HUJJATLAR</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+              <a href="../Ta'lim/Ta'lim.html" class="dropdown-toggle">TA'LIM</a>
+              <ul>
+                  <li>
+                      <a href="#">KITOBLAR</a>
+                  </li>
+                  <li>
+                      <a href="#">E'LONLAR</a>
+                  </li>
+                  <li>
+                      <a href="#">DARS JADVALI</a>
+                  </li>
+                  <li>
+                      <a href="#">TANLOVLAR</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+              <a href="../Yangiliklar/yangiliklar.html">YANGILIKLAR</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- NAVBAR END ------------------>
+
+    </div>
+    <!-- Header end ----------------->
+    <!-- Navbar Responsive ----->
+    <div class="topnav" id="myTopnav">
+        <div class="navbar">
+            <a href="../index.html" >UY SAHIFA</a>
+            <a href="../Maktab/maktab.html">MAKTAB</a>
+            <a href="../Xodimlar/xodimlar.html">XODIMLAR</a>
+            <a href="../Sinflar/Sinflar.html">SINFLAR</a>
+            <a href="../Ta'lim/Ta'lim.html">TA'LIM</a>
+            <a href="../Ta'lim/Ta'lim.html">KITOBLAR</a>
+            <a href="../Ta'lim/Ta'lim.html">E'LONLAR</a>
+            <a href="../Ta'lim/Ta'lim.html">DARS JADVALI</a>
+            <a href="../Meyoriy hujjatlar/meyoriy_hujjat.html">ME'YORIY HUJJATLAR</a>
+            <a href="../Yangiliklar/yangiliklar.html">YANGILIKLAR</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <!-- Navbar Responsive end ----->
+
+        <!-- for main page-->
+        <div class="container-fluid liberary">
+            <!-- for liberary  -->
+            <h1>Welcome to our liberary</h1>
+            <div class="row mt-5 justify-content-center liberaryboxes">
+                <div class="col-lg-2 mr-5 liberarybox">
+                    <div class="row">
+                        <img style="width: 100%;" src="../images/img2.jpg" alt="img1">
+                        <div class="col-lg-10 p-2 text-center">
+                            <h4>Badiiy kitoblar</h4>
+                            <ul>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">......</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 mr-5 liberarybox">
+                    <div class="row">
+                        <img style="width: 100%;" src="../images/img2.jpg" alt="img1">
+                        <div class="col-lg-10 p-2 text-center">
+                            <h4>Ilmiy kitoblar</h4>
+                            <ul>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">......</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 mr-5 liberarybox">
+                    <div class="row">
+                        <img style="width: 100%;" src="../images/img2.jpg" alt="img1">
+                        <div class="col-lg-10 p-2 text-center">
+                            <h4>darslik kitoblari</h4>
+                            <ul>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">......</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 mr-5 liberarybox">
+                    <div class="row">
+                        <img style="width: 100%;" src="../images/img2.jpg" alt="img1">
+                        <div class="col-lg-10 p-2 text-center">
+                            <h4>Siyosiy kitoblar</h4>
+                            <ul>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">lorem mitsy</a></li>
+                                <li><a href="">......</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5  ">
+                <div class="col-lg-12 offset-3  justify-content-center">
+                    <button type="button" class="btn btn-info mr-5 ">Buyurtma berish</button>
+                    <button type="button" class="btn btn-warning">Takliflar uchun</button>
+                </div>
+               
+            </div>
+        </div>
+
+         <!-- for elonlar -->
+        <div class="container-fluid elonlar">
+            <h2><span>20</span><span>-M</span>aktab <span>E'</span>lonlari </h2>
+            <div class="row mt-3">
+                <div class="col-md-12 ">
+                    <div class="row elonlarboxes ">
+                        <div class="col-md-7 p-3 elonbox1 ">
+                            <div class="row pt-2">
+                                <div class="col-md-4">
+                                    <img src="" style="width:100%;" alt="elon-img">
+                                </div>
+                                <div class="col-md-6">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi mollitia, 
+                                        praesentium cupiditate iure quisquam officiis reprehenderit pariatur autem,
+                                         hic, cum voluptas?
+                                         <a href="#"> batafsil...</a>
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col-md-4">
+                                    <img src="" style="width:100%;" alt="elon-img">
+                                </div>
+                                <div class="col-md-6">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi mollitia, 
+                                        praesentium cupiditate iure quisquam officiis reprehenderit pariatur autem,
+                                         hic, cum voluptas?
+                                         <a href="#"> batafsil...</a>
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col-md-4">
+                                    <img src="" style="width:100%;" alt="elon-img">
+                                </div>
+                                <div class="col-md-6">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi mollitia, 
+                                        praesentium cupiditate iure quisquam officiis reprehenderit pariatur autem,
+                                         hic, cum voluptas?
+                                         <a href="#"> batafsil...</a>
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col-md-4">
+                                    <img src="" style="width:100%;" alt="elon-img">
+                                </div>
+                                <div class="col-md-6">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi mollitia, 
+                                        praesentium cupiditate iure quisquam officiis reprehenderit pariatur autem,
+                                         hic, cum voluptas?
+                                         <a href="#"> batafsil...</a>
+                                        </p>
+                                </div>
+                            </div>
+        
+                        </div>
+                        <div class="col-md-3 p-2 elonbox2">
+                            <h3> Asosiy E'lonlar</h3>
+                            <div class="row elonscroll">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <img src="" style="width: 100%;"  alt="Asosiy elonimg">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <img src="" style="width: 100%;"  alt="Asosiy elonimg">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <img src="" style="width: 100%;"  alt="Asosiy elonimg">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <img src="" style="width: 100%;"  alt="Asosiy elonimg">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <img src="" style="width: 100%;"  alt="Asosiy elonimg">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <img src="" style="width: 100%;"  alt="Asosiy elonimg">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- dars jadvali -->
+         <div class="container-fluid darsjadvali">
+             <h3><span>20</span><span>-M</span>aktabning <span>D</span>ars <span>J</span>advali</h3>
+            <div class="row pt-5" >
+                <div class="col-md-10 darsjadvalibox">
+                    <table class="table table-responsive table-striped  table-bordered table-secondary table-hover ">
+                        <tr>
+                            <!-- asosiy text -->
+                            <th class="sinflar">Sinf</th>
+                            <th>T/R</th>
+                            <th>Dushanba</th>
+                            <th>Seshanba</th>
+                            <th>Chorshanba</th>
+                            <th>Payshanba</th>
+                            <th>Juma</th>
+                            <th>Shanba</th>
+                        </tr>
+                        <!-- 1-sinf dars jadvali -->
+                        <tr>
+                            <td rowspan="4"><h3>1-sinf</h3></td>
+                            <td>1</td>
+                            <td>O`qish</td>
+                            <td>Ona tili</td>
+                            <td>Matematika</td>
+                            <td>Ona tili </td>
+                            <td>Matematika </td>
+                            <td>O`qish </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika </td>
+                            <td>Ona tili</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Tarbiyaviy</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                         <!-- asosiy text -->
+                        <tr>
+                            <th class="sinflar">Sinf</th>
+                            <th>T/R</th>
+                            <th>Dushanba</th>
+                            <th>Seshanba</th>
+                            <th>Chorshanba</th>
+                            <th>Payshanba</th>
+                            <th>Juma</th>
+                            <th>Shanba</th>
+                        </tr>
+                        <!-- 2-sinf dars jadvali -->
+                        <tr>
+                            <td rowspan="4"><h3>2-sinf</h3></td>
+                            <td>1</td>
+                            <td>O`qish</td>
+                            <td>Ona tili</td>
+                            <td>Matematika</td>
+                            <td>Ona tili </td>
+                            <td>Matematika </td>
+                            <td>O`qish </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika </td>
+                            <td>Ona tili</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Tarbiyaviy</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                          <!-- asosiy text -->
+                          <tr>
+                            <th class="sinflar">Sinf</th>
+                            <th>T/R</th>
+                            <th>Dushanba</th>
+                            <th>Seshanba</th>
+                            <th>Chorshanba</th>
+                            <th>Payshanba</th>
+                            <th>Juma</th>
+                            <th>Shanba</th>
+                        </tr>
+                        <!-- 3-sinf dars jadvali  -->
+                        <tr>
+                            <td rowspan="4"><h3>3-sinf</h3></td>
+                            <td>1</td>
+                            <td>O`qish</td>
+                            <td>Ona tili</td>
+                            <td>Matematika</td>
+                            <td>Ona tili </td>
+                            <td>Matematika </td>
+                            <td>O`qish </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika </td>
+                            <td>Ona tili</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Tarbiyaviy</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                          <!-- asosiy text -->
+                          <tr>
+                            <th class="sinflar">Sinf</th>
+                            <th>T/R</th>
+                            <th>Dushanba</th>
+                            <th>Seshanba</th>
+                            <th>Chorshanba</th>
+                            <th>Payshanba</th>
+                            <th>Juma</th>
+                            <th>Shanba</th>
+                        </tr>
+                        <!-- 4-sinf dars jadvali  -->
+                        <tr>
+                            <td rowspan="4"><h3>4-sinf</h3></td>
+                            <td>1</td>
+                            <td>O`qish</td>
+                            <td>Ona tili</td>
+                            <td>Matematika</td>
+                            <td>Ona tili </td>
+                            <td>Matematika </td>
+                            <td>O`qish </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika </td>
+                            <td>Ona tili</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Tarbiyaviy</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                          <!-- asosiy text -->
+                          <tr>
+                            <th class="sinflar">Sinf</th>
+                            <th>T/R</th>
+                            <th>Dushanba</th>
+                            <th>Seshanba</th>
+                            <th>Chorshanba</th>
+                            <th>Payshanba</th>
+                            <th>Juma</th>
+                            <th>Shanba</th>
+                        </tr>
+                        <!-- 5-sinf dars jadvali  -->
+                        <tr>
+                            <td rowspan="4"><h3>5-sinf</h3></td>
+                            <td>1</td>
+                            <td>O`qish</td>
+                            <td>Ona tili</td>
+                            <td>Matematika</td>
+                            <td>Ona tili </td>
+                            <td>Matematika </td>
+                            <td>O`qish </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika </td>
+                            <td>Ona tili</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Tarbiyaviy</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                          <!-- asosiy text -->
+                          <tr>
+                            <th class="sinflar">Sinf</th>
+                            <th>T/R</th>
+                            <th>Dushanba</th>
+                            <th>Seshanba</th>
+                            <th>Chorshanba</th>
+                            <th>Payshanba</th>
+                            <th>Juma</th>
+                            <th>Shanba</th>
+                        </tr>
+                        <!-- 6-sinf dars jadvali -->
+                        <tr>
+                            <td rowspan="4"><h3>6-sinf</h3></td>
+                            <td>1</td>
+                            <td>O`qish</td>
+                            <td>Ona tili</td>
+                            <td>Matematika</td>
+                            <td>Ona tili </td>
+                            <td>Matematika </td>
+                            <td>O`qish </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika </td>
+                            <td>Ona tili</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Tarbiyaviy</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                          <!-- asosiy text -->
+                          <tr>
+                            <th class="sinflar">Sinf</th>
+                            <th>T/R</th>
+                            <th>Dushanba</th>
+                            <th>Seshanba</th>
+                            <th>Chorshanba</th>
+                            <th>Payshanba</th>
+                            <th>Juma</th>
+                            <th>Shanba</th>
+                        </tr>
+                        <!-- 7-sinf dars jadvali -->
+                        <tr>
+                            <td rowspan="4"><h3>7-sinf</h3></td>
+                            <td>1</td>
+                            <td>O`qish</td>
+                            <td>Ona tili</td>
+                            <td>Matematika</td>
+                            <td>Ona tili </td>
+                            <td>Matematika </td>
+                            <td>O`qish </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika </td>
+                            <td>Ona tili</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Tarbiyaviy</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                          <!-- asosiy text -->
+                          <tr>
+                            <th class="sinflar">Sinf</th>
+                            <th>T/R</th>
+                            <th>Dushanba</th>
+                            <th>Seshanba</th>
+                            <th>Chorshanba</th>
+                            <th>Payshanba</th>
+                            <th>Juma</th>
+                            <th>Shanba</th>
+                        </tr>
+                        <!-- 8-sinf dars jadvali -->
+                        <tr>
+                            <td rowspan="4"><h3>8-sinf</h3></td>
+                            <td>1</td>
+                            <td>O`qish</td>
+                            <td>Ona tili</td>
+                            <td>Matematika</td>
+                            <td>Ona tili </td>
+                            <td>Matematika </td>
+                            <td>O`qish </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika </td>
+                            <td>Ona tili</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Tarbiyaviy</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                          <!-- asosiy text -->
+                          <tr>
+                            <th class="sinflar">Sinf</th>
+                            <th>T/R</th>
+                            <th>Dushanba</th>
+                            <th>Seshanba</th>
+                            <th>Chorshanba</th>
+                            <th>Payshanba</th>
+                            <th>Juma</th>
+                            <th>Shanba</th>
+                        </tr>
+                        <!-- 9-sinf dars jadvali -->
+                        <tr>
+                            <td rowspan="4"><h3>9-sinf</h3></td>
+                            <td>1</td>
+                            <td>O`qish</td>
+                            <td>Ona tili</td>
+                            <td>Matematika</td>
+                            <td>Ona tili </td>
+                            <td>Matematika </td>
+                            <td>O`qish </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika </td>
+                            <td>Ona tili</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Tarbiyaviy</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                          <!-- asosiy text -->
+                          <tr>
+                            <th class="sinflar">Sinf</th>
+                            <th>T/R</th>
+                            <th>Dushanba</th>
+                            <th>Seshanba</th>
+                            <th>Chorshanba</th>
+                            <th>Payshanba</th>
+                            <th>Juma</th>
+                            <th>Shanba</th>
+                        </tr>
+                        <!-- 10-sinf dars jadvali -->
+                        <tr>
+                            <td rowspan="4"><h3>10-sinf</h3></td>
+                            <td>1</td>
+                            <td>O`qish</td>
+                            <td>Ona tili</td>
+                            <td>Matematika</td>
+                            <td>Ona tili </td>
+                            <td>Matematika </td>
+                            <td>O`qish </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika </td>
+                            <td>Ona tili</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Tarbiyaviy</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                          <!-- asosiy text -->
+                          <tr>
+                            <th class="sinflar">Sinf</th>
+                            <th>T/R</th>
+                            <th>Dushanba</th>
+                            <th>Seshanba</th>
+                            <th>Chorshanba</th>
+                            <th>Payshanba</th>
+                            <th>Juma</th>
+                            <th>Shanba</th>
+                        </tr>
+                        <!-- 11-sinf dars jadvali -->
+                        <tr>
+                            <td rowspan="4"><h3>11-sinf</h3></td>
+                            <td>1</td>
+                            <td>O`qish</td>
+                            <td>Ona tili</td>
+                            <td>Matematika</td>
+                            <td>Ona tili </td>
+                            <td>Matematika </td>
+                            <td>O`qish </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika </td>
+                            <td>Ona tili</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                            <td>Matematika</td>
+                            <td>Ona tili</td>
+                            <td>O`qish</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>Tarbiyaviy</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+    <!-- Footer ----------->
+    <footer>
+        <div class="container-fluid footer" id="footer">
+            <div class="row">
+                <div class="col-lg-3 py-4">
+                    <a href="#"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>&nbsp;MANZIL : Jizzax viloyati,
+                        Sharof Rashidov tumani, Turkiston ko`chasi,28-A uy </a><br><br>
+                    <a href="#"><i class="fas fa-phone-volume fa-2x" aria-hidden="true"></i>&nbsp;CALL CENTER : +998
+                        (97) 777 07 70;<br>+998 (91) 505 50 05;</a>
+                </div>
+                <div class="col-lg-3 py-4">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3049.868968708787!2d67.81831651488555!3d40.14520238003329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b29724bbfaa0bb%3A0xf0641218417ce3f3!2sSharof%20Rashidov!5e0!3m2!1sru!2s!4v1605091448700!5m2!1sru!2s"
+                        width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0" id="locate">
+                    </iframe>
+                </div>
+                <div class="col-lg-3 nav py-4">
+                    <ul>
+                        <li><a href="../index.html"><i class="fa fa-home"></i>&nbsp; UY SAHIFA</a></li>
+                        <li><a href="../Maktab/maktab.html"><i class="fa fa-university" aria-hidden="true"></i>&nbsp; MAKTAB</a></li>
+                        <li><a href="../Ta'lim/Ta'lim.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp; TA'LIM</a></li>
+                        <li><a href="../Yangiliklar/yangiliklar.html"><i class="fas fa-globe" aria-hidden="true"></i>&nbsp; YANGILIKLAR</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 py-4">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fas fa-globe" aria-hidden="true"></i>
+                                "2017-2021 yillarda O‘zbekiston Respublikasini rivojlantirishning beshta ustuvor
+                                yo‘nalishi bo‘yicha harakatlar strategiyasi"
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-globe" aria-hidden="true"></i>
+                                "O‘zbekiston Respublikasi Oliy va o‘rta maxsus ta`lim vazirligi"
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-globe" aria-hidden="true"></i>
+                                "Yagona interaktiv davlat xizmatlari portali"
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-text">
+            Copyright &copy;  2020 | This Project is Made width by our team!!!
+        </div>
+    </footer>
+    <!-- Footer end ----------->
+
+    <!-- Boshiga qaytish ---------->
+    <a class="climb" href="#climb">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+    <!-- Boshiga qaytish end -------->
+    </body>
+    <script src="../Bootstrap/js/jquery-slim.min.js"></script>
+    <script src="../Bootstrap/js/src/popover.js"></script>
+    <script src="../Bootstrap/js/bootstrap.js"></script>
+</html>
