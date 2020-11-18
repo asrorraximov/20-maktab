@@ -808,7 +808,7 @@ body, html{
         width: 100%;
     }
     .liberary{
-        padding: 40px 0;
+        padding: 50px 0;
     }
     .liberarybox{
         width: 18%;
@@ -959,6 +959,10 @@ body, html{
         width: 90%;
         margin:0 auto;
     }
+}
 
-
+@media (min-width: 1200.1) and (max-width: 1335px){
+    .liberary{
+        padding-top: 100px;
+    }
 }
