@@ -181,6 +181,9 @@ nav{
     text-align: center;
     
 }
+.liberarybox img{
+    border-radius: 10px;
+}
 .liberarybox ul{
     list-style: none;
 }
