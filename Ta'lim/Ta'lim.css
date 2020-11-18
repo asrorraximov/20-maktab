@@ -598,7 +598,8 @@ body, html{
         color: #ffffff;
     }
     .liberarybox img{
-        width: 20%;
+        width: 22.5%;
+        height: 22.5%;
     }
     .btn{
        
@@ -674,7 +675,8 @@ body, html{
         color: #ffffff;
     }
     .liberarybox img{
-        width: 100%;
+        width: 25%;
+        height: 25%;
     }
     .btn{
         width: 70%;
@@ -748,7 +750,8 @@ body, html{
         color: #ffffff;
     }
     .liberarybox img{
-        width: 100%;
+        width: 30%;
+        height: 30%;
     }
     .btn{
         width: 40%;
