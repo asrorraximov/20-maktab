@@ -827,6 +827,7 @@ body, html{
     }
     .liberarybox img{
         width: 100%;
+        height: 50%;
     }
     .btn{
         width: 30%;
