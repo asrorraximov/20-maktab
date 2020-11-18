@@ -402,6 +402,10 @@
     #maktab_haqida .title p{
         font-size:16px;
     }
+    
+    #rahbariyat .title h1{
+        font-size: 35px;
+    }
     #rahbariyat{
         margin-top: 0;
         padding: 20px;
@@ -495,6 +499,10 @@
     #maktab_haqida .title p{
         font-size:14px;
     }
+    
+    #rahbariyat .title h1{
+        font-size: 27px;
+    }
     #rahbariyat{
         margin-top: 0;
         padding: 20px;
@@ -584,6 +592,10 @@
     }
     #maktab_haqida .title p{
         font-size:12px;
+    }
+    
+    #rahbariyat .title h1{
+        font-size: 25px;
     }
     #rahbariyat{
         margin-top: 0;
