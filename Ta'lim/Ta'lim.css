@@ -172,7 +172,7 @@ nav{
     font-size: 34px;
     font-weight: 500;
     color: #fff;
-    padding-top:15px;
+    padding-top:100px;
     font-family: calibri;
 }
 .liberarybox {
@@ -958,11 +958,5 @@ body, html{
     .darsjadvalibox{
         width: 90%;
         margin:0 auto;
-    }
-}
-
-@media (min-width: 1200.1) and (max-width: 1335px){
-    .liberary{
-        padding-top: 100px;
     }
 }
