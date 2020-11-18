@@ -391,7 +391,16 @@
         display: none;
     }
     .title-text h1{
-        font-size: 50px !important;
+        font-size: 35px !important;
+    }
+    #maktab_haqida .title{
+        width: 100%;
+    }
+    #maktab_haqida .title h1{
+        font-size: 35px;
+    }
+    #maktab_haqida .title p{
+        font-size:16px;
     }
     #rahbariyat{
         margin-top: 0;
@@ -475,7 +484,16 @@
         display: none;
     }
     .title-text h1{
-        font-size: 40px !important;
+        font-size: 27px !important;
+    }
+    #maktab_haqida .title{
+        width: 100%;
+    }
+    #maktab_haqida .title h1{
+        font-size: 27px;
+    }
+    #maktab_haqida .title p{
+        font-size:14px;
     }
     #rahbariyat{
         margin-top: 0;
@@ -556,7 +574,16 @@
         display: none;
     }
     .title-text h1{
-        font-size: 30px !important;
+        font-size: 25px !important;
+    }
+    #maktab_haqida .title{
+        width: 100%;
+    }
+    #maktab_haqida .title h1{
+        font-size: 25px;
+    }
+    #maktab_haqida .title p{
+        font-size:12px;
     }
     #rahbariyat{
         margin-top: 0;
@@ -583,10 +610,8 @@
     iframe{
         height: 220px;
     }
-    .copyright-text,
-    .card-body p,
-     h5,
-      a{
+    .copyright-text
+    {
         font-size:18px !important;
     }
     .news-bottom ul li{
