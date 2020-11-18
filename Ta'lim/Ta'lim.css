@@ -817,6 +817,7 @@ body, html{
     }
     .liberarybox{
         width: 40%;
+        margin: 0 auto;
         box-shadow: 2px 2px 5px 4px #e4e4e1;
         margin-bottom: 20px;
     }
